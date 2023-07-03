@@ -1,0 +1,13 @@
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Traceback (most recent call last):
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 263, in <module>
+    main()
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 141, in main
+    scheduler = Scheduler(config)
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/tools/utils.py", line 209, in __init__
+    self.warm_up_epochs = self.scheduler_parameters['warm_up_epochs']
+KeyError: 'warm_up_epochs'

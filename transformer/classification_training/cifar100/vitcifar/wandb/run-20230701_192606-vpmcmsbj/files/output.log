@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 263, in <module>
+    main()
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 41, in main
+    from train_config import config
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/./train_config.py", line 109
+    )
+    ^
+SyntaxError: unmatched ')'

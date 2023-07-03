@@ -1,0 +1,38 @@
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+Warning:  apex was installed without --cpp_ext.  Falling back to Python flatten and unflatten.
+79it [00:01, 69.24it/s]
+Traceback (most recent call last):
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 263, in <module>
+    main()
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 176, in main
+    train_loss = train_classification(train_loader, model, train_criterion,
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/tools/scripts.py", line 186, in train_classification
+    scaled_loss.backward()
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

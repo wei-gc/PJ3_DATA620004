@@ -1,0 +1,359 @@
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+Warning:  apex was installed without --cpp_ext.  Falling back to Python flatten and unflatten.
+79it [00:01, 75.23it/s]
+
+79it [00:01, 76.27it/s]
+
+79it [00:01, 77.09it/s]
+
+79it [00:01, 78.74it/s]
+
+79it [00:01, 76.06it/s]
+79it [00:01, 74.10it/s]
+79it [00:00, 79.08it/s]
+79it [00:01, 72.00it/s]
+79it [00:01, 75.35it/s]
+79it [00:01, 76.70it/s]
+79it [00:01, 78.12it/s]
+
+79it [00:01, 78.53it/s]
+
+79it [00:00, 79.09it/s]
+
+79it [00:01, 78.76it/s]
+79it [00:01, 73.80it/s]
+
+79it [00:01, 78.59it/s]
+
+79it [00:01, 75.79it/s]
+
+79it [00:01, 58.87it/s]
+79it [00:01, 75.63it/s]
+79it [00:00, 79.29it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+
+79it [00:01, 78.34it/s]
+79it [00:01, 78.50it/s]
+79it [00:01, 76.71it/s]
+
+79it [00:01, 70.04it/s]
+79it [00:01, 75.66it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+
+79it [00:01, 76.77it/s]
+79it [00:01, 69.82it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:01, 73.70it/s]
+79it [00:01, 76.81it/s]
+
+79it [00:01, 76.88it/s]
+79it [00:01, 78.93it/s]
+
+79it [00:01, 76.53it/s]
+79it [00:01, 75.48it/s]
+
+79it [00:00, 79.56it/s]
+
+79it [00:01, 77.63it/s]
+79it [00:01, 75.63it/s]
+
+79it [00:01, 77.15it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+
+79it [00:01, 76.92it/s]
+79it [00:01, 77.51it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:01, 77.40it/s]
+
+79it [00:01, 78.66it/s]
+79it [00:01, 77.98it/s]
+79it [00:01, 76.31it/s]
+79it [00:01, 78.92it/s]
+79it [00:01, 77.68it/s]
+79it [00:01, 78.27it/s]
+79it [00:01, 77.93it/s]
+79it [00:01, 78.32it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:00, 79.14it/s]
+
+79it [00:01, 69.00it/s]
+79it [00:01, 73.89it/s]
+
+79it [00:01, 71.79it/s]
+79it [00:01, 74.36it/s]
+79it [00:01, 75.04it/s]
+79it [00:01, 74.90it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 76.33it/s]
+
+79it [00:01, 71.43it/s]
+79it [00:01, 76.48it/s]
+
+79it [00:01, 75.17it/s]
+
+79it [00:01, 49.15it/s]
+
+79it [00:01, 74.20it/s]
+
+79it [00:01, 77.44it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 76.82it/s]
+79it [00:01, 77.06it/s]
+79it [00:01, 76.07it/s]
+79it [00:01, 74.43it/s]
+
+79it [00:01, 76.18it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:01, 76.61it/s]
+
+79it [00:01, 76.42it/s]
+
+79it [00:01, 76.53it/s]
+79it [00:01, 76.19it/s]
+
+79it [00:01, 77.24it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:01, 75.01it/s]
+
+79it [00:01, 76.86it/s]
+79it [00:01, 75.56it/s]
+
+79it [00:01, 75.17it/s]
+79it [00:01, 76.10it/s]
+
+79it [00:01, 76.11it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 76.42it/s]
+79it [00:01, 76.43it/s]
+
+79it [00:01, 71.61it/s]
+79it [00:01, 75.05it/s]
+79it [00:01, 76.51it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 74.03it/s]
+
+79it [00:01, 75.55it/s]
+79it [00:01, 74.22it/s]
+
+79it [00:01, 75.50it/s]
+
+79it [00:01, 75.43it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 76.39it/s]
+
+79it [00:01, 75.35it/s]
+79it [00:01, 77.22it/s]
+
+79it [00:01, 77.06it/s]
+79it [00:01, 72.64it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:01, 72.80it/s]
+
+79it [00:01, 75.11it/s]
+79it [00:01, 74.60it/s]
+
+79it [00:01, 75.87it/s]
+79it [00:01, 75.73it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 131072.0
+79it [00:01, 72.40it/s]
+79it [00:01, 71.35it/s]
+79it [00:01, 74.50it/s]
+49it [00:00, 85.15it/s]
+79it [00:01, 77.78it/s]
+59it [00:00, 87.59it/s]
+79it [00:01, 78.63it/s]
+79it [00:01, 72.41it/s]
+11it [00:00, 59.23it/s]
+79it [00:01, 74.57it/s]
+68it [00:00, 86.88it/s]
+79it [00:01, 74.76it/s]
+39it [00:00, 81.39it/s]
+79it [00:01, 75.89it/s]
+40it [00:00, 80.91it/s]
+79it [00:01, 75.53it/s]
+79it [00:01, 75.53it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:01, 76.52it/s]
+3it [00:00, 29.61it/s]]
+79it [00:01, 74.80it/s]
+38it [00:00, 75.01it/s]
+79it [00:01, 70.89it/s]
+79it [00:01, 76.00it/s]
+40it [00:00, 81.02it/s]
+79it [00:01, 76.10it/s]
+79it [00:01, 75.48it/s]
+0it [00:00, ?it/s]it/s]
+79it [00:01, 75.88it/s]
+31it [00:00, 78.61it/s]
+79it [00:01, 75.20it/s]
+79it [00:01, 75.20it/s]
+79it [00:01, 70.83it/s]
+56it [00:00, 86.58it/s]
+79it [00:01, 73.73it/s]
+76it [00:00, 89.24it/s]
+79it [00:01, 73.29it/s]
+79it [00:01, 74.21it/s]
+47it [00:00, 81.55it/s]
+79it [00:01, 74.47it/s]
+79it [00:01, 75.61it/s]
+79it [00:01, 75.61it/s]
+12it [00:00, 62.93it/s]
+79it [00:01, 75.39it/s]
+79it [00:01, 75.99it/s]
+79it [00:01, 75.46it/s]
+49it [00:00, 84.21it/s]
+79it [00:01, 77.73it/s]
+79it [00:01, 70.56it/s]
+79it [00:01, 75.53it/s]
+39it [00:00, 80.63it/s]
+79it [00:01, 74.83it/s]
+79it [00:01, 74.83it/s]
+31it [00:00, 79.23it/s]
+79it [00:01, 75.21it/s]
+79it [00:01, 76.60it/s]
+79it [00:01, 76.32it/s]
+48it [00:00, 79.32it/s]
+79it [00:01, 73.96it/s]
+79it [00:01, 75.81it/s]
+49it [00:00, 84.28it/s]
+79it [00:01, 76.59it/s]
+79it [00:01, 77.14it/s]
+79it [00:01, 77.14it/s]
+79it [00:01, 74.02it/s]
+79it [00:01, 77.23it/s]
+79it [00:01, 76.57it/s]
+79it [00:01, 76.14it/s]
+0it [00:00, ?it/s]it/s]
+79it [00:01, 74.25it/s]
+79it [00:01, 74.25it/s]
+31it [00:00, 80.18it/s]
+79it [00:01, 77.01it/s]
+59it [00:00, 85.54it/s]
+79it [00:01, 75.55it/s]
+1it [00:00,  8.46it/s]]
+79it [00:01, 71.97it/s]
+46it [00:00, 80.22it/s]
+79it [00:01, 71.91it/s]
+40it [00:00, 81.58it/s]
+79it [00:01, 71.20it/s]
+78it [00:00, 90.24it/s]
+79it [00:01, 76.55it/s]
+79it [00:01, 76.55it/s]
+79it [00:01, 73.77it/s]
+46it [00:00, 80.29it/s]
+79it [00:01, 73.26it/s]
+79it [00:01, 74.38it/s]
+79it [00:01, 71.44it/s]
+79it [00:01, 73.54it/s]
+22it [00:00, 73.84it/s]
+79it [00:01, 74.09it/s]
+79it [00:01, 74.09it/s]
+69it [00:00, 88.36it/s]
+79it [00:01, 76.55it/s]
+79it [00:01, 75.34it/s]
+69it [00:00, 87.75it/s]
+79it [00:01, 75.28it/s]
+79it [00:01, 76.65it/s]
+59it [00:00, 86.42it/s]
+79it [00:01, 75.61it/s]
+79it [00:01, 75.61it/s]
+47it [00:00, 83.16it/s]
+79it [00:01, 74.78it/s]
+79it [00:01, 73.35it/s]
+38it [00:00, 79.15it/s]
+79it [00:01, 73.47it/s]
+79it [00:01, 74.55it/s]
+30it [00:00, 77.90it/s]
+79it [00:01, 75.67it/s]
+79it [00:01, 76.51it/s]
+79it [00:01, 76.51it/s]
+79it [00:01, 74.76it/s]
+22it [00:00, 75.67it/s]
+79it [00:01, 76.27it/s]
+79it [00:01, 75.23it/s]
+79it [00:01, 76.17it/s]
+68it [00:00, 87.56it/s]
+79it [00:01, 76.29it/s]
+79it [00:01, 76.29it/s]
+79it [00:01, 76.84it/s]
+49it [00:00, 83.15it/s]
+79it [00:01, 75.83it/s]
+79it [00:01, 74.72it/s]
+79it [00:01, 75.15it/s]
+68it [00:00, 86.36it/s]
+79it [00:01, 74.74it/s]
+79it [00:01, 73.83it/s]
+30it [00:00, 76.27it/s]
+79it [00:01, 74.91it/s]
+79it [00:01, 74.91it/s]
+79it [00:01, 76.59it/s]
+22it [00:00, 75.74it/s]
+79it [00:01, 77.18it/s]
+59it [00:00, 87.37it/s]
+79it [00:01, 76.98it/s]
+79it [00:01, 70.14it/s]
+40it [00:00, 82.54it/s]
+79it [00:01, 76.51it/s]
+79it [00:01, 76.51it/s]
+79it [00:01, 76.32it/s]
+49it [00:00, 83.24it/s]
+79it [00:01, 76.65it/s]
+79it [00:01, 75.36it/s]
+30it [00:00, 77.33it/s]
+79it [00:01, 75.20it/s]
+79it [00:01, 74.74it/s]
+0it [00:00, ?it/s]it/s]
+79it [00:01, 75.60it/s]
+79it [00:01, 75.60it/s]
+75it [00:00, 87.97it/s]
+79it [00:01, 72.76it/s]
+31it [00:00, 79.42it/s]
+79it [00:01, 76.32it/s]
+79it [00:01, 76.94it/s]
+40it [00:00, 82.58it/s]
+79it [00:01, 76.98it/s]
+79it [00:01, 76.02it/s]
+49it [00:00, 84.26it/s]
+79it [00:01, 72.35it/s]
+79it [00:01, 72.35it/s]
+0it [00:00, ?it/s]it/s]
+79it [00:01, 75.89it/s]
+79it [00:01, 75.36it/s]
+79it [00:01, 74.65it/s]
+40it [00:00, 82.26it/s]
+79it [00:01, 76.75it/s]
+0it [00:00, ?it/s]it/s]
+79it [00:01, 75.70it/s]
+79it [00:01, 75.70it/s]
+79it [00:01, 75.88it/s]
+0it [00:00, ?it/s]it/s]
+79it [00:01, 76.25it/s]
+79it [00:01, 76.25it/s]

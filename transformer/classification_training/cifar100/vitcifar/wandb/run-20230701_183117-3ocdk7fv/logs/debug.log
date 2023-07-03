@@ -1,0 +1,28 @@
+2023-07-01 18:31:17,907 INFO    MainThread:61645 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-07-01 18:31:17,907 INFO    MainThread:61645 [wandb_setup.py:_flush():76] Configure stats pid to 61645
+2023-07-01 18:31:17,909 INFO    MainThread:61645 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-07-01 18:31:17,910 INFO    MainThread:61645 [wandb_setup.py:_flush():76] Loading settings from /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/wandb/settings
+2023-07-01 18:31:17,911 INFO    MainThread:61645 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-01 18:31:17,912 INFO    MainThread:61645 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-01 18:31:17,913 INFO    MainThread:61645 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'resnet18/tools/train_classification_model.py', 'program': '/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py'}
+2023-07-01 18:31:17,915 INFO    MainThread:61645 [wandb_init.py:_log_setup():507] Logging user logs to /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/wandb/run-20230701_183117-3ocdk7fv/logs/debug.log
+2023-07-01 18:31:17,916 INFO    MainThread:61645 [wandb_init.py:_log_setup():508] Logging internal logs to /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/wandb/run-20230701_183117-3ocdk7fv/logs/debug-internal.log
+2023-07-01 18:31:17,918 INFO    MainThread:61645 [wandb_init.py:init():547] calling init triggers
+2023-07-01 18:31:17,919 INFO    MainThread:61645 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-01 18:31:17,920 INFO    MainThread:61645 [wandb_init.py:init():596] starting backend
+2023-07-01 18:31:17,921 INFO    MainThread:61645 [wandb_init.py:init():600] setting up manager
+2023-07-01 18:31:17,924 INFO    MainThread:61645 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-01 18:31:17,925 INFO    MainThread:61645 [wandb_init.py:init():606] backend started and connected
+2023-07-01 18:31:17,927 INFO    MainThread:61645 [wandb_init.py:init():700] updated telemetry
+2023-07-01 18:31:17,949 INFO    MainThread:61645 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-07-01 18:31:18,630 INFO    MainThread:61645 [wandb_run.py:_on_init():2177] communicating current version
+2023-07-01 18:31:20,051 INFO    MainThread:61645 [wandb_run.py:_on_init():2186] got version response upgrade_message: "wandb version 0.15.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-07-01 18:31:20,051 INFO    MainThread:61645 [wandb_init.py:init():787] starting run threads in backend
+2023-07-01 18:31:26,903 INFO    MainThread:61645 [wandb_run.py:_console_start():2158] atexit reg
+2023-07-01 18:31:26,903 INFO    MainThread:61645 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-07-01 18:31:26,903 INFO    MainThread:61645 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-07-01 18:31:26,903 INFO    MainThread:61645 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-07-01 18:31:26,904 INFO    MainThread:61645 [wandb_init.py:init():829] run started, returning control to user process
+2023-07-01 18:50:11,595 WARNING MsgRouterThr:61645 [router.py:message_loop():77] message_loop has been closed

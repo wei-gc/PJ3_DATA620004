@@ -1,0 +1,43 @@
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+Warning:  apex was installed without --cpp_ext.  Falling back to Python flatten and unflatten.
+Traceback (most recent call last):
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 263, in <module>
+    main()
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 176, in main
+    train_loss = train_classification(train_loader, model, train_criterion,
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/tools/scripts.py", line 138, in train_classification
+    outputs = model(images)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/apex-0.1-py3.9.egg/apex/parallel/distributed.py", line 564, in forward
+    result = self.module(*inputs, **kwargs)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/simpleAICV/classification/backbones/vit.py", line 241, in forward
+    x = x + self.position_encoding
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/apex-0.1-py3.9.egg/apex/amp/wrap.py", line 53, in wrapper
+    return orig_fn(*args, **kwargs)
+RuntimeError: The size of tensor a (5) must match the size of tensor b (197) at non-singleton dimension 1

@@ -1,0 +1,36 @@
+12831844
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+Warning:  apex was installed without --cpp_ext.  Falling back to Python flatten and unflatten.
+Traceback (most recent call last):
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 263, in <module>
+    main()
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 148, in main
+    model.load_state_dict(checkpoint['model_state_dict'])
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1604, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for DistributedDataParallel:
+	Unexpected key(s) in state_dict: "module.blocks.7.norm1.weight", "module.blocks.7.norm1.bias", "module.blocks.7.attention.qkv_linear.weight", "module.blocks.7.attention.qkv_linear.bias", "module.blocks.7.attention.out_linear.weight", "module.blocks.7.attention.out_linear.bias", "module.blocks.7.norm2.weight", "module.blocks.7.norm2.bias", "module.blocks.7.feed_forward.fc1.weight", "module.blocks.7.feed_forward.fc1.bias", "module.blocks.7.feed_forward.fc2.weight", "module.blocks.7.feed_forward.fc2.bias", "module.blocks.8.norm1.weight", "module.blocks.8.norm1.bias", "module.blocks.8.attention.qkv_linear.weight", "module.blocks.8.attention.qkv_linear.bias", "module.blocks.8.attention.out_linear.weight", "module.blocks.8.attention.out_linear.bias", "module.blocks.8.norm2.weight", "module.blocks.8.norm2.bias", "module.blocks.8.feed_forward.fc1.weight", "module.blocks.8.feed_forward.fc1.bias", "module.blocks.8.feed_forward.fc2.weight", "module.blocks.8.feed_forward.fc2.bias", "module.blocks.9.norm1.weight", "module.blocks.9.norm1.bias", "module.blocks.9.attention.qkv_linear.weight", "module.blocks.9.attention.qkv_linear.bias", "module.blocks.9.attention.out_linear.weight", "module.blocks.9.attention.out_linear.bias", "module.blocks.9.norm2.weight", "module.blocks.9.norm2.bias", "module.blocks.9.feed_forward.fc1.weight", "module.blocks.9.feed_forward.fc1.bias", "module.blocks.9.feed_forward.fc2.weight", "module.blocks.9.feed_forward.fc2.bias", "module.blocks.10.norm1.weight", "module.blocks.10.norm1.bias", "module.blocks.10.attention.qkv_linear.weight", "module.blocks.10.attention.qkv_linear.bias", "module.blocks.10.attention.out_linear.weight", "module.blocks.10.attention.out_linear.bias", "module.blocks.10.norm2.weight", "module.blocks.10.norm2.bias", "module.blocks.10.feed_forward.fc1.weight", "module.blocks.10.feed_forward.fc1.bias", "module.blocks.10.feed_forward.fc2.weight", "module.blocks.10.feed_forward.fc2.bias", "module.blocks.11.norm1.weight", "module.blocks.11.norm1.bias", "module.blocks.11.attention.qkv_linear.weight", "module.blocks.11.attention.qkv_linear.bias", "module.blocks.11.attention.out_linear.weight", "module.blocks.11.attention.out_linear.bias", "module.blocks.11.norm2.weight", "module.blocks.11.norm2.bias", "module.blocks.11.feed_forward.fc1.weight", "module.blocks.11.feed_forward.fc1.bias", "module.blocks.11.feed_forward.fc2.weight", "module.blocks.11.feed_forward.fc2.bias".
+	size mismatch for module.position_encoding: copying a param with shape torch.Size([1, 5, 384]) from checkpoint, the shape in current model is torch.Size([1, 197, 384]).

@@ -1,0 +1,344 @@
+12758116
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+Warning:  apex was installed without --cpp_ext.  Falling back to Python flatten and unflatten.
+79it [00:00, 93.97it/s]
+
+79it [00:00, 85.55it/s]
+
+79it [00:00, 89.52it/s]
+79it [00:00, 98.04it/s]
+
+79it [00:00, 95.68it/s]
+79it [00:00, 95.02it/s]
+79it [00:00, 98.63it/s]
+
+79it [00:00, 98.20it/s]
+79it [00:00, 97.31it/s]
+
+79it [00:00, 96.64it/s]
+79it [00:00, 94.52it/s]
+79it [00:00, 99.25it/s]
+79it [00:00, 94.97it/s]
+
+79it [00:00, 95.40it/s]
+79it [00:00, 96.95it/s]
+
+79it [00:00, 100.11it/s]
+
+79it [00:00, 99.00it/s]
+79it [00:00, 98.18it/s]
+79it [00:00, 99.25it/s]
+
+79it [00:00, 99.10it/s]
+79it [00:00, 96.06it/s]
+
+79it [00:00, 93.82it/s]
+79it [00:00, 97.38it/s]
+79it [00:00, 100.84it/s]
+
+79it [00:00, 99.21it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1048576.0
+79it [00:00, 99.62it/s]
+
+79it [00:00, 94.66it/s]
+
+79it [00:01, 76.04it/s]
+79it [00:00, 91.41it/s]
+79it [00:00, 99.61it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1048576.0
+
+79it [00:00, 104.29it/s]
+79it [00:00, 93.01it/s]
+79it [00:00, 92.38it/s]
+79it [00:00, 98.78it/s]
+
+79it [00:00, 96.15it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1048576.0
+79it [00:00, 96.58it/s]
+79it [00:00, 90.39it/s]
+79it [00:00, 97.61it/s]
+
+79it [00:00, 93.39it/s]
+
+79it [00:00, 104.35it/s]
+79it [00:00, 94.85it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1048576.0
+
+79it [00:00, 82.48it/s]
+79it [00:00, 97.39it/s]
+79it [00:00, 99.79it/s]
+79it [00:00, 86.84it/s]
+
+79it [00:00, 98.61it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1048576.0
+
+79it [00:00, 99.95it/s]
+
+79it [00:00, 99.89it/s]
+
+79it [00:00, 97.42it/s]
+79it [00:00, 94.13it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+
+79it [00:00, 99.59it/s]
+
+79it [00:00, 97.56it/s]
+
+79it [00:00, 99.62it/s]
+
+79it [00:00, 100.53it/s]
+79it [00:00, 98.74it/s]
+79it [00:00, 99.09it/s]
+
+79it [00:00, 97.62it/s]
+
+79it [00:00, 98.00it/s]
+
+79it [00:00, 97.59it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+
+79it [00:00, 99.67it/s]
+79it [00:00, 98.70it/s]
+
+79it [00:00, 99.17it/s]
+
+79it [00:00, 96.83it/s]
+
+79it [00:00, 97.69it/s]
+79it [00:00, 96.51it/s]
+79it [00:00, 98.01it/s]
+79it [00:00, 98.25it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+79it [00:00, 98.19it/s]
+79it [00:00, 92.11it/s]
+
+79it [00:00, 99.78it/s]
+
+79it [00:00, 98.94it/s]
+
+79it [00:00, 100.88it/s]
+
+79it [00:00, 98.52it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+
+79it [00:00, 99.77it/s]
+
+79it [00:00, 96.52it/s]
+
+79it [00:00, 99.51it/s]
+79it [00:00, 100.90it/s]
+79it [00:00, 100.50it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+79it [00:00, 99.90it/s]
+79it [00:00, 98.12it/s]
+79it [00:00, 93.81it/s]
+79it [00:00, 99.20it/s]
+
+79it [00:00, 99.05it/s]
+
+79it [00:00, 99.57it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+79it [00:00, 96.42it/s]
+79it [00:00, 96.48it/s]
+
+79it [00:00, 99.08it/s]
+
+79it [00:00, 97.67it/s]
+79it [00:00, 100.72it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+79it [00:00, 87.06it/s]
+
+79it [00:00, 95.73it/s]
+
+79it [00:00, 98.31it/s]
+79it [00:00, 98.91it/s]
+
+79it [00:00, 99.06it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+
+79it [00:00, 97.02it/s]
+79it [00:00, 99.63it/s]
+79it [00:00, 96.54it/s]
+79it [00:00, 97.66it/s]
+79it [00:00, 98.86it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:00, 98.70it/s]
+79it [00:00, 99.56it/s]
+79it [00:00, 98.87it/s]
+79it [00:00, 99.93it/s]
+
+79it [00:00, 98.97it/s]
+
+79it [00:00, 99.45it/s]
+
+79it [00:00, 99.85it/s]
+
+79it [00:00, 97.51it/s]
+79it [00:00, 98.94it/s]
+79it [00:00, 98.54it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+79it [00:00, 99.44it/s]
+79it [00:00, 101.01it/s]
+79it [00:00, 98.15it/s]
+
+79it [00:00, 98.02it/s]
+
+79it [00:00, 95.56it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+
+79it [00:00, 98.48it/s]
+79it [00:00, 97.67it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:00, 99.08it/s]
+79it [00:00, 94.35it/s]
+79it [00:00, 95.99it/s]
+79it [00:00, 100.35it/s]
+79it [00:00, 99.66it/s]
+79it [00:00, 98.53it/s]
+
+79it [00:00, 98.25it/s]
+79it [00:00, 99.34it/s]
+79it [00:00, 93.86it/s]
+
+79it [00:00, 94.62it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+79it [00:00, 99.77it/s]
+
+79it [00:00, 79.49it/s]
+79it [00:00, 102.25it/s]
+
+79it [00:00, 102.65it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:00, 100.37it/s]
+
+79it [00:00, 100.35it/s]
+79it [00:00, 103.78it/s]
+
+79it [00:00, 100.70it/s]
+79it [00:00, 87.39it/s]
+
+79it [00:00, 98.26it/s]
+
+79it [00:00, 98.18it/s]
+79it [00:00, 99.61it/s]
+79it [00:00, 97.73it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:00, 98.06it/s]
+
+79it [00:00, 96.19it/s]
+79it [00:00, 99.04it/s]
+79it [00:00, 92.56it/s]
+79it [00:00, 98.23it/s]
+
+79it [00:00, 96.50it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:00, 98.42it/s]
+
+79it [00:00, 97.87it/s]
+
+79it [00:00, 97.32it/s]
+79it [00:00, 95.91it/s]
+79it [00:00, 98.20it/s]
+
+79it [00:00, 95.70it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:00, 98.38it/s]
+79it [00:00, 97.98it/s]
+79it [00:00, 99.84it/s]
+79it [00:00, 92.51it/s]
+79it [00:00, 99.32it/s]
+79it [00:00, 96.91it/s]
+
+79it [00:00, 98.06it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:00, 98.74it/s]
+79it [00:01, 77.15it/s]
+
+79it [00:00, 94.34it/s]
+
+79it [00:01, 73.59it/s]
+79it [00:00, 100.62it/s]
+79it [00:00, 97.81it/s]
+
+79it [00:00, 99.90it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:00, 99.86it/s]
+
+79it [00:00, 103.26it/s]
+
+79it [00:00, 101.96it/s]
+79it [00:00, 96.64it/s]
+79it [00:00, 99.41it/s]
+79it [00:00, 98.47it/s]
+
+79it [00:00, 104.84it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:00, 91.59it/s]
+79it [00:00, 91.44it/s]
+
+79it [00:00, 91.53it/s]
+79it [00:00, 99.70it/s]
+79it [00:00, 93.04it/s]
+79it [00:00, 96.85it/s]
+
+79it [00:00, 97.05it/s]
+
+79it [00:00, 97.37it/s]
+79it [00:00, 94.26it/s]
+79it [00:00, 97.17it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+79it [00:00, 102.16it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:00, 103.97it/s]
+
+79it [00:00, 105.38it/s]
+
+79it [00:00, 103.61it/s]
+
+79it [00:00, 100.80it/s]
+79it [00:00, 89.01it/s]
+79it [00:00, 106.45it/s]
+79it [00:00, 98.62it/s]
+79it [00:00, 94.83it/s]
+
+79it [00:00, 98.53it/s]
+79it [00:00, 99.71it/s]
+79it [00:00, 102.25it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 524288.0
+79it [00:00, 102.79it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:00, 104.77it/s]
+79it [00:00, 90.19it/s]
+
+79it [00:00, 94.68it/s]
+
+79it [00:00, 101.46it/s]
+79it [00:00, 101.38it/s]

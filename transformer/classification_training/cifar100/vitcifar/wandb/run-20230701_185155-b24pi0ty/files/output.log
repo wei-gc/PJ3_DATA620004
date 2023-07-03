@@ -1,0 +1,194 @@
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+Warning:  apex was installed without --cpp_ext.  Falling back to Python flatten and unflatten.
+79it [00:01, 77.05it/s]
+
+79it [00:00, 80.33it/s]
+
+79it [00:01, 78.67it/s]
+
+79it [00:01, 74.25it/s]
+79it [00:01, 74.94it/s]
+79it [00:01, 78.55it/s]
+79it [00:01, 77.83it/s]
+
+79it [00:01, 74.87it/s]
+79it [00:01, 78.14it/s]
+79it [00:01, 75.76it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 131072.0
+79it [00:01, 55.02it/s]
+79it [00:01, 78.51it/s]
+
+79it [00:01, 73.81it/s]
+79it [00:01, 75.50it/s]
+79it [00:01, 76.82it/s]
+
+79it [00:01, 78.55it/s]
+79it [00:01, 78.71it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 131072.0
+
+79it [00:01, 78.78it/s]
+
+79it [00:01, 77.73it/s]
+79it [00:01, 78.04it/s]
+79it [00:01, 78.14it/s]
+79it [00:01, 72.97it/s]
+
+79it [00:01, 76.91it/s]
+
+79it [00:01, 76.22it/s]
+79it [00:01, 77.21it/s]
+
+79it [00:00, 80.11it/s]
+79it [00:01, 72.41it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 78.22it/s]
+79it [00:01, 78.55it/s]
+
+79it [00:01, 73.54it/s]
+79it [00:01, 76.57it/s]
+
+79it [00:00, 80.05it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 78.07it/s]
+
+79it [00:01, 77.45it/s]
+
+79it [00:00, 80.15it/s]
+
+79it [00:01, 75.00it/s]
+79it [00:01, 78.52it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+79it [00:01, 76.27it/s]
+79it [00:01, 76.78it/s]
+
+79it [00:01, 73.88it/s]
+79it [00:01, 76.35it/s]
+79it [00:01, 74.99it/s]
+79it [00:01, 73.45it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 73.81it/s]
+
+79it [00:01, 73.25it/s]
+
+79it [00:01, 77.02it/s]
+
+79it [00:01, 75.42it/s]
+79it [00:01, 71.00it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 75.95it/s]
+
+79it [00:01, 76.17it/s]
+79it [00:01, 78.04it/s]
+79it [00:01, 78.35it/s]
+79it [00:01, 78.36it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 131072.0
+79it [00:01, 76.98it/s]
+79it [00:01, 77.50it/s]
+
+79it [00:01, 72.79it/s]
+
+79it [00:01, 73.16it/s]
+79it [00:01, 76.27it/s]
+
+79it [00:01, 78.80it/s]
+
+79it [00:01, 77.62it/s]
+
+79it [00:01, 77.50it/s]
+
+79it [00:01, 75.91it/s]
+
+79it [00:01, 73.98it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 63.90it/s]
+
+79it [00:01, 74.04it/s]
+
+79it [00:01, 76.76it/s]
+
+79it [00:01, 76.44it/s]
+
+79it [00:01, 73.44it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 75.94it/s]
+79it [00:01, 75.69it/s]
+79it [00:01, 74.54it/s]
+79it [00:01, 73.30it/s]
+79it [00:01, 75.72it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 262144.0
+
+79it [00:01, 71.97it/s]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 131072.0
+79it [00:01, 74.62it/s]
+79it [00:01, 74.42it/s]
+
+79it [00:01, 76.15it/s]
+79it [00:01, 75.51it/s]
+
+79it [00:01, 77.42it/s]
+
+79it [00:01, 71.97it/s]
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fc4cbb85ee0>
+Traceback (most recent call last):
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1510, in __del__
+    self._shutdown_workers()
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1456, in _shutdown_workers
+    self._pin_memory_thread.join()
+  File "/home/pai/envs/FCOS/lib/python3.9/threading.py", line 1060, in join
+    self._wait_for_tstate_lock()
+  File "/home/pai/envs/FCOS/lib/python3.9/threading.py", line 1080, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
+Traceback (most recent call last):
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 263, in <module>
+    main()
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/vitcifar/../../../tools/train_classification_model.py", line 176, in main
+    train_loss = train_classification(train_loader, model, train_criterion,
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/tools/scripts.py", line 138, in train_classification
+    outputs = model(images)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/apex-0.1-py3.9.egg/apex/parallel/distributed.py", line 564, in forward
+    result = self.module(*inputs, **kwargs)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/simpleAICV/classification/backbones/vit.py", line 245, in forward
+    x = block(x)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/simpleAICV/classification/backbones/vit.py", line 160, in forward
+    x = x + self.drop_path(self.attention(self.norm1(x)))
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/simpleAICV/classification/backbones/vit.py", line 65, in forward
+    x = self.qkv_linear(x).view(b, n, 3, self.head_nums,
+KeyboardInterrupt
